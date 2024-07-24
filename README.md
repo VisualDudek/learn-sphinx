@@ -10,9 +10,19 @@ My Comprehensice Guide to Python Documentation Generation
 
 
 ### Quick Setup
+Install Sphinx package
 ```bash
 pip install sphinx
 ```
+create `docs/` dir and run insde `sphinx-quickstart`, this will create docs structure.
+
+Use `Makefile` to build the docs
+```bash
+make html
+```
+
+Populate `index.rst` and create other documentation source files.
+
 
 ## Branch
 - `dev-init` - init setup for Sphinx
