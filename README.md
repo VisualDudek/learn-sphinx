@@ -7,3 +7,12 @@ My Comprehensice Guide to Python Documentation Generation
 - **Using Extensions**: Instructions on how to enhance your documentation with various Sphinx extensions.
 - **GitHub Actions to Generate Docs from Docstrings**: Automate the generation of documentation from docstrings using GitHub Actions.
 - **Autodocs for Unittests**: Integrate unit tests documentation automatically into your Sphinx-generated docs.
+
+
+### Quick Setup
+```bash
+pip install sphinx
+```
+
+## Branch
+- `dev-init` - init setup for Sphinx
