@@ -15,6 +15,9 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+.. note:: This is a **note box**.
+
+.. tip:: Remember your sun cream!
 
 Using extensions
 ----------------
