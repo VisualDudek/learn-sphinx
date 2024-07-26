@@ -71,7 +71,17 @@ my_project/
 make html
 ```
 
+### GitHub Pages
+- Create on Orphan Branch:
+```bash
+git chekckout --orphan gh-pages
+```
+TODO: does not work as intended, how to get rid off unencesary files from gh-pages branch?
+
 # Dev Notes
+
+## TODO
+- GitHub deployment does not work as intended, how to get rid off unencesary files from gh-pages branch?
 
 ## Branch
 - `dev-init` - init setup for Sphinx
