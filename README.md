@@ -24,6 +24,7 @@ make html
 
 - Populate `index.rst` and create other documentation source files.
 
+# Dev Notes
 
 ## Branch
 - `dev-init` - init setup for Sphinx
