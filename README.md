@@ -19,9 +19,15 @@ pip install sphinx
 
 Use `Makefile` to build the docs
 ```bash
-make html
+# make html
+make -C docs html
 ```
-
+- HTML Theming, install rtd theme: `pip install sphinx-rtd-theme`
+- setup rtd theme in `config.py`
+```python
+# config.py
+html_theme = `sphinx_rtd_theme`
+```
 - Populate `index.rst` and create other documentation source files.
 
 ### Using `autodoc` and `napoleon` Extensions
